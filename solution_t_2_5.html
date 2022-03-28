@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AngelMarin_19114081_03.12.2021</title>
+
+    <style>
+        
+        body{
+            background-color: #e6e6fa;
+            text-align: center;
+            margin: 100px;
+        }
+
+        .fn_19114081_header{
+            font-size: 25px;
+        }
+
+        .fn_19114081_label{
+            font-family: sans-serif;
+            border-radius: 1px;
+            color: gray;
+        }
+
+        .fn_19114081_box{
+            display: inline-block;
+            border-style: solid ;
+            border-radius: 1px;
+            border-color: grey;
+        }
+
+        #fn_19114081_email{
+            margin-left: 30px;
+        }
+        
+        .fn_19114081_register{
+            background-color: #4caf50;
+            color:white;
+            padding: 10px 38px;
+            margin-left: 120px;
+            border: none;
+            cursor: pointer;
+        }
+
+        
+        .fn_19114081_register:hover{
+            background-color: white;
+            color: #4caf50;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #4caf50;
+        }
+    </style>
+</head>
+<body>
+    <div class="fn_19114081_page">
+        <h1 class="fn_19114081_header">Registration Form</h1>
+        
+        <p class="fn_19114081_label">First Name :
+            <input type="text" class="fn_19114081_box" name="firstName" />
+        </p>
+        <p class="fn_19114081_label">Last Name :
+            <input type="text" class="fn_19114081_box" name="lastName" />
+        </p>
+        <p class="fn_19114081_label">Username :
+            <input type="text" class="fn_19114081_box" name="username" />
+        </p>
+        <p class="fn_19114081_label">Password :
+            <input type="password" class="fn_19114081_box" name="password" />
+        </p>
+        <p class="fn_19114081_label" id="fn_19114081_email">Email :
+            <input type="email" class="fn_19114081_box" name="email" />
+        </p>
+        <p class="fn_19114081_label">Mobile No :
+            <input type="tel" class="fn_19114081_box" name="mobileNumber" />
+        </p>
+
+        <p class="fn_19114081_label">City :
+            <select class="fn_19114081_cities">
+                <option value="sofia">Sofia</option>
+                <option value="plovdiv">Plovdiv</option>
+                <option value="varna">Varna</option>
+                <option value="burgas">Burgas</option>
+                <option value="ruse">Ruse</option>
+                <option value="other">Other</option>
+            </select>
+        </p>
+
+        <button class="fn_19114081_register">Register</button>
+
+        <!--Реферирам същата страница, защото нямаме "Home" страница-->
+        <a href="">Back to Home</a>
+    </div>
+</body>
+</html>
